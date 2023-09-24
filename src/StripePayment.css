@@ -1,0 +1,46 @@
+/* Stripe.css */
+.form-box{
+    
+   
+    min-height: 100vh;
+}
+.stripe-form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-element {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pay-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pay-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  #success-alert{
+    color: green;
+  }
+
+  #no-payment{
+    color: grey;
+  }
+  
